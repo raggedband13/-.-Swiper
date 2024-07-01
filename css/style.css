@@ -1,0 +1,545 @@
+/* подключение файла swiper.css */
+@import 'swiper.min.css';
+html {
+    --font-family: 'Proxima Soft' , sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.img_1 {
+    width: 190px;
+    height: 200px;
+}
+
+.buy {
+    width: 31px;
+    height: 31px;
+}
+
+h1 {
+    width: 1200px;
+    font-size: 55px;
+    text-align: center;
+}
+
+h3 {
+    width: 205px;
+    height: 68px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.txt_1 {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(164 165 164);
+}
+
+.txt_2 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.txt_3 {
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(253 75 0);
+    margin-bottom: -10px;
+    
+}
+
+.txt_4 {
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: line-through rgb(253 75 0) 2px;
+}
+
+.background_1 {
+    display: flex;
+}
+
+.background_2 {
+    background-color: rgb(253 75 0);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.background_2:hover {
+    background-color: rgb(253 75 0);
+    box-shadow: 0 15px 30px -5px rgb(253 75 0);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    margin-left: auto;
+}
+
+.background_3 {
+    display: flex;
+    margin-top: -10px;
+}
+
+.background_4 {
+    background-color: rgb(253 75 0);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.background_4:hover {
+    background-color: rgb(253 75 0);
+    box-shadow: 0 15px 30px -5px rgb(253 75 0);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    margin-left: auto;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.posts_slider {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: visible;
+}
+
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function,initial);
+    box-sizing: content-box;
+}
+
+.posts_slider .swiper-pagination {
+    bottom: 12px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.posts_slider .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
+.posts_slider .swiper-pagination-bullet-active {
+    transform: scale(1.7);
+    background-color: rgb(253 75 0);
+}
+.posts_slider .swiper-button-prev,
+.posts_slider .swiper-button-next {
+    top: auto;
+    bottom: 0;
+    border: 2px solid rgb(253 75 0);
+    border-radius: 100%;
+    padding: 0px 8px;
+    transition: 0.25s;
+    color: rgb(253 75 0);
+}
+
+.posts_slider .swiper-button-prev:hover,
+.posts_slider .swiper-button-next:hover {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid rgb(253 75 0);
+    border-radius: 100%;
+    padding: 0px 8px;
+    background-color: rgb(253 75 0);
+    box-shadow: 0 15px 30px -5px rgb(253 75 0);
+}
+
+.posts_slider .swiper-button-prev:after,
+.posts_slider .swiper-button-next:after {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.swiper-slide_3 {
+    align-items: center;
+    display: flex;
+}
+
+.txt_5 {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Proxima Soft' , sans-serif;
+    margin-left: 45px;
+}
+
+.border_1 {
+    background-color: rgba(253,208,184);
+    z-index: -1;
+    position: absolute;
+    height: 10px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+.heading_h1 {
+    width: 670px;
+    margin-left: 45px;
+    font-size: 45px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    font-family: 'Proxima Soft' , sans-serif;
+}
+
+.img_2 {
+    width: 420px;
+    height: 580px;
+}
+
+.img_3 {
+    height: 28px;
+    width: 30px;
+}
+
+.background_5 {
+    background-color: rgb(253 75 0);
+    border-radius: 45px;
+    padding: 0px 35px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.background_5:hover {
+    box-shadow: 0 15px 30px -5px rgb(253 75 0);
+}
+
+.txt_6 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Proxima Soft' , sans-serif;
+}
+
+.background_6 {
+    background-color: #fff;
+    border-radius: 45px;
+    padding: 0px 35px;
+    border: 2px solid rgb(253 75 0);
+    margin-bottom: 25px;
+}
+
+.background_6:hover {
+    box-shadow: 0 15px 30px -5px rgb(253 75 0);
+}
+
+.txt_7 {
+    color: rgb(253 75 0);
+    font-size: 18px;
+    font-family: 'Proxima Soft' , sans-serif;
+}
+
+.txt_8 {
+    font-size: 16px;
+    color: #1E1E1E80;
+    margin-left: 45px;
+    font-family: 'Proxima Soft' , sans-serif;
+}
+
+.container_2 {
+    margin: 100px auto 0px auto;
+    display: flex;
+    width: 1200px;
+}
+
+
+.swiper_banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.product_price {
+    margin-left: 250px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin: 0px 100px 0px 0px;
+}
+
+.color_text {
+    font-size: 20px;
+    color: rgb(253 75 0);
+    font-weight: 800;
+    font-family: 'Proxima Soft' , sans-serif;
+}
+
+.product_price_old {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Proxima Soft' , sans-serif;
+    margin-top: -14px;
+}
+
+.swiper-pagination-current {
+    font-size: 25px;
+    color: rgb(253 75 0);
+    font-weight: 700;
+    font-family: 'Proxima Soft' , sans-serif;
+}
+
+.swiper-pagination-total {
+    color: #000;
+    font-weight: 700;
+    font-family: 'Proxima Soft' , sans-serif;
+}
+
+.swiper_banner .swiper-button-next,
+.swiper_banner .swiper-button-prev {
+    background: none;
+    color: rgb(253 75 0);
+    border: none;
+    border-radius: 0px;
+    top: auto;
+    bottom: 0;
+}
+
+.swiper_banner .swiper-button-prev {
+    left: 950px;
+}
+
+.swiper_banner .swiper-pagination-fraction {
+    width: auto;
+    bottom: 5px;
+    left: 1050px;
+    position: absolute;
+}
+
+.swiper_banner .swiper-button-prev:after,
+.swiper_banner .swiper-button-next:after {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.rewiews {
+    overflow: hidden;
+}
+
+
+.rewiew_slider {
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.rewiews .swiper-slide {
+    border: 1px solid #ececec;
+    border-radius: 20px;
+    padding: 0px 0px 45px 45px;
+    display: inline-flex;
+    z-index: -1;
+    transform: rotate(0.9);
+    box-sizing: border-box;
+    
+}
+
+.rewiews .swiper-slide-active {
+    transform: scale(1.1);
+    transition: 0;
+    z-index: 1
+}
+
+.img_4 {
+    width: 83px;
+    height: 83px;
+    margin-top: -40px;
+    position: absolute;
+}
+
+.txt_9 {
+    width: 590px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Proxima Soft' , sans-serif;
+    margin-top: 50px;
+}
+
+.img_5 {
+    border-radius: 100%;
+    width: 77px;
+    height: 77px;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.major {
+    font-size: 14px;
+    color: rgb(164 165 164);
+    margin-top: -15px;
+}
+
+.stars {
+    margin-top: 20px;
+}
+
+.txt_10 {
+    font-size: 14px;
+    color: rgb(164 165 164);
+    margin-top: 3px;
+}
+
+.rewiew_slider .swiper-button-prev,
+.rewiew_slider .swiper-button-next {
+    border: 2px solid rgb(253 75 0);
+    border-radius: 100%;
+    padding: 0px 8px;
+    transition: 0.25s;
+    color: rgb(253 75 0);
+    z-index: 1;
+    background-color: #fff;
+}
+
+.rewiew_slider .swiper-button-next {
+    right: 200px;
+}
+
+.rewiew_slider .swiper-button-prev {
+    left: 200px;
+}
+
+.rewiew_slider .swiper-button-prev:hover,
+.rewiew_slider .swiper-button-next:hover {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid rgb(253 75 0);
+    border-radius: 100%;
+    padding: 0px 8px;
+    background-color: rgb(253 75 0);
+    box-shadow: 0 15px 30px -5px rgb(253 75 0);
+}
+
+.rewiew_slider .swiper-button-prev:after,
+.rewiew_slider .swiper-button-next:after {
+    font-size: 22px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+
+/* Классы для стилизации слайдера */
+
+/* класс добавляется всему слайду, если слайдер вертикальный (если указать в настройках слайда в 'main.js', свойство - direction: 'vertical') */
+.swiper-vertical {}
+/* класс добавляется всему слайду, если слайдер горизонтальный (если указать в настройках слайда в 'main.js', свойство - direction: 'horizontal') */
+.swiper-horizontal {}
+
+
+
+/* Лента со слайдами */
+.swiper-wrapper {}
+
+
+/* класс добавляется предыдущему слайду */
+.swiper-slide-prev {}
+/* класс добавляется активному (основному) слайду */
+.swiper-slide-active {}
+/* класс добавляется следующему слайду */
+.swiper-slide-next {}
+
+/* слайд */
+.swiper-slide_2 {
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    transition: 0.25s;
+    padding: 25px;   
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-shrink: 1;
+}
+
+.swiper-slide_2:hover {
+    border: 1px solid rgb(253 75 0);
+}
+
+/* Блок со стрелочкой назад */
+.swiper-button-prev {
+    
+}
+/* Блок со стрелочкой вперед */
+.swiper-button-next {
+
+}
+/* Стрелочка назад (по умолчанию) */
+.swiper-button-prev:after {
+
+}
+/* Стрелочка вперед (по умолчанию) */
+.swiper-button-next:after {
+
+}
+/* Указываем, чтобы удалить стандартные стрелочки */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    /* display: none; */
+}
+
+
+
+
+/* Блок со всеми точками */
+.swiper-pagination {
+    bottom: 0px;
+}
+/* класс добавляется, если слайдер горизонтальный
+по умолчанию все точки стоят по горизонтали */
+.swiper-pagination-horizontal {
+
+}
+/* класс добавляется, если слайдер вертикальный */
+.swiper-pagination-vertical {
+
+}
+
+
+/* Одна точка */
+.swiper-pagination-bullet {
+
+}
+/* класс добавляется активной точке */
+.swiper-pagination-bullet-active {
+
+}
+
